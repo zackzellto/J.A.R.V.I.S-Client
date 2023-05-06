@@ -53,7 +53,6 @@ function App() {
     target.question.value = "";
   };
 
-  //make api call to heroku server
   useEffect(() => {
     const getMessage = async () => {
       const response = await fetch(
